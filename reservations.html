@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+        <link rel="stylesheet" href="layout.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="menu.html">Menu</a></li>
+        </ul>
+        <div class="reservation_wrapper">
+            <h1>Reservations</h1>
+            <form>
+                <fieldset>
+                    <div class="input_fields">
+                        <label for="party_name">Name: </label>
+                        <input type="text" id="party_name" name="party_name"><br>
+                        <label for="party_size">Party Size: </label>
+                        <input type="text" id="party_size" name="party_size"><br>
+                        <label for="comment_area">Additional Comments: </label>
+                        <textarea></textarea><br>
+                    </div>
+                    <br>
+                    <label for="notify_box">Notify me when a reservation is available</label>
+                    <input type="checkbox" id="notify_box" name="notify_box"><br>
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</HTML>
